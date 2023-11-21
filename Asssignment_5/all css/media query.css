@@ -1,0 +1,330 @@
+@media screen and (max-width: 767px) and (min-width: 501px) {
+
+
+    .container {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        top: 0px;
+    }
+
+
+    nav i {
+    
+        padding-right: 10px;
+    }
+    
+
+    header {
+        display: flex;
+        background-color: #EEEEEE;
+        min-height: 200vh;
+        margin-top: 50px;
+
+    }
+
+    .landing-content {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+
+    }
+
+    .landing-content h2 {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 65px;
+        color: #37373F;
+        font-weight: 700;
+    }
+
+    .btn-and-video {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .landing-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .landing-img img {
+        width: 85%;
+    }
+
+    .chef-item {
+        width: 100%;
+    }
+
+    .gallery-container {
+        width: 100%;
+    }
+
+    .gallery-1,
+    .gallery-2,
+    .gallery-3 {
+        width: 100%;
+    }
+
+    .gallery-section h2,
+    .gallery-section p,
+    .gallery-section span {
+        font-size: 30px;
+    }
+
+    .contacts h2,
+    .contacts p,
+    .contacts span {
+        font-size: 30px;
+    }
+
+    .contacts iframe {
+        width: 100%;
+    }
+
+    .contacts-container,
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .contacts-item,
+    .footer-links,
+    .footer-email,
+    .left,
+    .right-left,
+    .middle {
+        width: 100%;
+    }
+
+    .contacts-item-content h3 {
+
+        font-size: 16px;
+    }
+
+    .contacts-item-content p {
+        color: #212529;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .contacts-item-content span {
+        color: #000000;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+
+    .circle-for-icon {
+
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 20px;
+
+    }
+
+    .circle-for-icon i {
+        font-size: 18px;
+    }
+
+    .right-left h3::after {
+        position: absolute;
+        content: "";
+        width: 300px;
+        height: 2px;
+        bottom: -10px;
+        right: 120px;
+        background-color: lightgray;
+    }
+
+}
+
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+
+/* small screens */
+
+@media screen and (max-width: 500px) {
+
+
+    nav h2 {
+        font-size: 18px;
+        padding: 10px 5px 3px;
+    }
+
+
+    nav li {
+        padding: 10px 5px 3px;
+        font-size: 12px;
+
+
+    }
+
+    nav i {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    nav li::after {
+
+        bottom: 5px;
+        left: 10px;
+    }
+
+    .container {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    header {
+        display: flex;
+        background-color: #EEEEEE;
+        min-height: 180vh;
+
+    }
+
+    .landing-content {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+
+    }
+
+    .landing-content h2 {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 65px;
+        color: #37373F;
+        font-weight: 700;
+    }
+
+    .btn-and-video {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .landing-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .landing-img img {
+        width: 100%;
+    }
+
+    .chef-item {
+        width: 100%;
+    }
+
+
+    .gallery-container {
+        width: 100%;
+    }
+
+
+    .gallery-1,
+    .gallery-2,
+    .gallery-3 {
+        width: 100%;
+    }
+
+    .gallery-section h2,
+    .gallery-section p,
+    .gallery-section span {
+        font-size: 24px;
+    }
+
+    .contacts h2,
+    .contacts p,
+    .contacts span {
+        font-size: 24px;
+    }
+
+    .contacts iframe {
+        width: 100%;
+    }
+
+    .contacts-container,
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .contacts-item,
+    .footer-links,
+    .footer-email,
+    .left,
+    .right-left,
+    .middle {
+        width: 100%;
+    }
+
+
+    .contacts-item-content h3 {
+
+        font-size: 16px;
+    }
+
+    .contacts-item-content p {
+        color: #212529;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .contacts-item-content span {
+        color: #000000;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+
+    .circle-for-icon {
+
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 20px;
+
+    }
+
+    .circle-for-icon i {
+        font-size: 18px;
+    }
+
+}
+
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
